@@ -111,5 +111,15 @@
        background-color: cadetblue;
        color: black;
        } 
-       
+       h3{
+        background-color: #b639b6;
+       }
+       #contact{
+        background-color: aquamarine;
+        color: white;
+        padding: 30px;
+        border-radius: 10px;
+        text-align: center;
+       }
+
        
