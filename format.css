@@ -1,0 +1,115 @@
+
+        *{
+             font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+             box-sizing: border-box;
+        }
+        body{
+            background-color: bisque;
+           margin: 0;
+        }
+        header{
+            background: #3a333a;
+            text-align: center;
+            color: white;
+            padding: 15px;
+            
+        }
+        header img{
+            width: 170px;
+            height: 170px;
+            border-radius: 60%;
+            margin-top: 16px;
+        }
+        header h1{
+            font-size: 50px;
+        }
+        nav{
+            width: 220px;
+            float: left;
+            padding: 20px;
+            background-color: #2a3d2a;
+            text-align: left;
+            min-height: 100vh;
+        }
+        nav a{
+            
+            &:hover{
+                background: rebeccapurple;
+            }
+            font-size: 25px;
+            border:2px;
+            border-radius: 10px solid #2a3d2a;
+            display: block;
+            color: white;
+            padding: 10px;
+            margin: 10px 0;
+            font-size: 25px;
+            border-radius: 18px;
+            text-decoration: none;            
+            background-color: rgb(176, 21, 21);
+            
+        }
+        .section{
+            padding: 10px;
+            
+            margin-left: 260px;
+            background-color: rgb(57, 93, 3);
+            color: whitesmoke;
+            border: 10px;
+            border-radius: 5px solid rgb(174, 215, 7);
+            font-size: 30px;
+
+        }
+        .active{
+            display: block;
+        }
+        table{
+            width: 150px;
+            border-collapse:collapse;
+            margin-top: 20px;
+
+        }
+        tr th{
+            background-color: rgb(62, 4, 4);
+            color: rgb(210, 170, 170);
+            padding: 15px;
+            margin: 9px;
+            text: shadow 6% #3a333a;
+        }
+        th, td{
+            border: 1px solid #ddd;
+            padding: 5px;
+            
+        }
+        tr td {
+            border: 1px solid #ddefdd;
+            padding: 15px;
+            font-size: 22px;
+            margin: 10px;
+            border: 7px;
+            border-radius: 5px solid none ;
+            &:hover{
+                background-color: #9d4f9d;
+            }
+        }
+        input{
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+        }
+        input type{
+            background-color: mediumvioletred;
+        }
+        h2{
+            background-color: coral;
+            text-align: center;
+        }
+       button{
+        width: 85px;
+        padding: 8pxpx;
+        margin: 20px;
+       background-color: cadetblue;
+       color: black;
+       } 
+       
+       
